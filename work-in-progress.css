@@ -1,0 +1,103 @@
+*{
+
+margin: 0;
+padding:0;
+
+}
+
+body{
+  color: black;
+  background-image: url("https://pic.clubic.com/v1/images/1693605/raw");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: center;
+ text-decoration:none;
+
+}
+
+
+span.ameliore{
+font-weight: bold;
+color:#AED6F1;
+font-size: 20px;
+}
+
+
+.container{
+
+  font-size: 20px;
+  color:white;
+}
+
+#maintenance{
+  border-radius: 10px;
+  text-align : center;
+  padding : 2em;
+  margin: 2em;
+  width: 50%;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+transform: rotate(10deg);
+transform:skewX(10deg);
+box-shadow: 8px 8px 0px white;
+
+}
+
+#bienvenue{
+  border-radius: 10px;
+  text-align : center;
+  padding : 2em;
+  margin: 2em;
+  width: 50%;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+transform: rotate(5deg);
+box-shadow: 8px 8px 0px white;
+
+}
+
+#contact{
+  border-radius: 10px;
+  text-align : center;
+  padding : 2em;
+  margin: 2em;
+  width: 50%;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+transform: rotate(5deg);
+box-shadow: 8px 8px 0px white;
+
+}
+
+.progress-bar {
+    width: 330px;
+    height: 28px;
+    padding: 4px;
+    background-color: black;
+}
+
+.progress-bar:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    background: white;
+}
+
+img
+{
+  width: 200px;
+  margin: 2em;
+
+}
